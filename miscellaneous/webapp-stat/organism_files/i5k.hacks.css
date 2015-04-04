@@ -1,0 +1,333 @@
+@media (min-width: 44em) {
+  #block-superfish-1 li.last {
+    z-index: 1 !important;
+  }  
+  .l-region--navigation {
+    top: -25px !important;
+  }
+  /*
+  .l-main {
+    margin-top: 0px !important;
+    position: relative;
+    top: -37px !important;
+  }*/
+
+
+}
+
+@media  (max-width: 48em) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  table#tripal-chado_organism-contents-table {
+    border: 0px;  
+  }
+
+  .tripal-contents-table-td-toc {
+    display: table;
+    border: 0px !important;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 1px 1px 2px #888;
+   }
+
+  .tripal-contents-table-td-data {
+    display: table-row;
+  }
+
+  #chado_organism-tripal-toc-pane {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding-left: 6px;
+  }
+
+  #web-apollo-registration .resizable-textarea .grippie {
+    position: relative;
+    left: 17.75% !important;
+    background: none;
+    border: 0px;
+  }
+
+  .l-header h1.site-name a {
+    font-size: 89% !important;
+  }
+
+  .l-region--navigation {
+    top: 37px !important;  
+    border: 0px !important;	
+  }
+
+  .l-region--navigation #block-superfish-1 {
+    margin: -2px auto !important;
+    display: inline !important;
+    border: 1px solid #FFF;
+    top: -19px !important;
+    position: relative;
+  } 
+
+  .l-region--branding {
+    width: 270px;
+    float: right;
+    position: relative;
+    right: -1%;
+    margin-top: -30px !important;
+  }
+
+  .l-region--branding .block--search-form {
+    float: left;
+    width: 70%;
+    top: 0px !important;
+  }
+
+  #block-block-6 {
+    float: left;
+    width: 27%;
+    top: 0px !important;
+  }
+
+  #block-superfish-1 li.last {
+    z-index: 1;
+  }
+
+  #block-superfish-1 ul {
+    border: 0px !important;
+    z-index: 1 !important;
+  }
+
+  .l-page {
+    margin: -30px auto -4em !important;
+  }
+
+   
+ #block-superfish-1 ul ul li.menuparent a.sf-depth-2 {
+    background: url('../images/icn-arrow-right-light.png') no-repeat scroll 96% 51% transparent !important;
+ }
+
+  /*
+  #block-superfish-1 .sf-depth-2 ul {
+    margin: 0em !important;
+  }  */
+}
+
+@media (min-width:300px) and (max-width:480px) { /*Mobile */
+  .l-main {
+    margin-top: 0px !important;
+    position: relative;
+    /*top: -70px !important;*/
+  }
+
+  #web-apollo-registration .form-item label {
+    width: 28% !important;
+  }
+  
+  /*#block-superfish-1 .sf-depth-2 ul {
+    margin: 0.35em 0px 0px 10em !important;
+  }*/
+  #block-superfish-1 .sf-depth-3 ul {
+    margin: -1.7em 0px 0px 15em !important;
+}  
+  
+  .sf-menu.menu li {
+    float: none !important;
+  }
+ 
+}
+
+/*** portrait-tablet ***/
+@media (min-width:481px) and (max-width:768px) { 
+  .assembly_details, .statistics_details  {
+    width: 100%;
+  }  
+  .page-contact .resizable-textarea  {
+    width: 376px;
+  }
+  .page-contact .form-text {
+    width: 369px; 
+  }
+  
+  #web-apollo-registration .resizable-textarea .grippie {
+    position: relative;
+    left: 17.75% !important;
+    background: none;
+    border: 0px;
+  }
+
+  table#tripal-chado_organism-contents-table {
+    border: 0px;
+  }
+
+  .tripal-contents-table-td-toc {
+    display: table;
+    border: 0px !important;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 1px 1px 2px #888;
+   }
+
+  .tripal-contents-table-td-data {
+    display: table-row;
+  }
+
+  .l-header h1.site-name a {
+    font-size: 89% !important;
+  }
+ 
+   .l-region--branding {
+    width: 270px;
+    float: right;
+    position: relative;
+    right: -1%;
+    margin-top: 35px;
+  }
+
+  .l-region--branding .block--search-form {
+    float: left;
+    width: 70%;
+  }
+
+  #block-block-6 {
+    float: left;
+    width: 27%;
+  }
+  
+  .l-page .l-main ul.breadcrumb {
+    left: 74px !important;
+	float: left !important;
+	padding-left: 0px;
+	position:  absolute;
+  } 
+  
+  /*  .sf-menu.menu li {
+    float: none !important;
+  }*/
+}
+
+/*** landscape-tablet ***/
+@media (min-width:769px) and (max-width:1147px) { 
+  .tripal-contents {
+    width: 100%;
+  }
+  .page-contact .resizable-textarea  {
+    width: 376px;
+  }
+  .page-contact .form-text {
+    width: 369px; 
+  }
+  
+  
+  #web-apollo-registration .resizable-textarea .grippie {
+    position: relative;
+    left: 17.05% !important;
+    background: none;
+    border: 0px;
+  }
+
+  .tripal_toc_list_item {
+    padding: 3px 20px 3px 3px !important;
+  }
+
+  .l-region--branding {
+    width: 270px;
+    float: right;
+    position: relative;
+    right: -1%;
+	top: -80px;
+  }
+
+  .l-region--branding .block--search-form {
+    float: left;
+    width: 70%;
+  }
+
+  #block-block-6 {
+    float: left;
+    width: 27%;
+  }
+
+  .l-header h1.site-name a {
+    margin-left: 0px !important;
+  }
+
+  .l-header h1 {
+    font-size: 3.2em;
+  }
+  
+  .l-page .l-main {
+    margin-top: -40px;
+  } 
+  
+  .tripal-contents-table-td-toc {
+    padding-left: 6px !important;
+  }
+  
+}
+
+/*** desktop ***/
+@media (min-width:1148px) { 
+  .assembly_details {
+	float: left;
+	width: 49%;
+	padding-right: 10px;
+	padding-left: 10px;
+  }
+
+  .statistics_details {
+    float: left;
+     width: 49%;
+   }
+  /*Contact form */   
+  .page-contact .resizable-textarea  {
+    width: 376px;
+  }
+
+  .page-contact #edit-name, .page-contact #edit-mail, .page-contact #edit-subject  {
+    width: 369px; 
+  }
+
+  #web-apollo-registration .resizable-textarea .grippie {
+    position: relative;
+    left: 16.65% !important;
+    background: none;
+    border: 0px;
+  }
+
+  .l-region--branding {
+    width: 290px;
+    float: right;
+    position: relative;
+    right: -1%;
+	top: -80px; 
+  }
+
+  .l-region--branding .block--search-form {
+    float: left;
+    width: 70%;
+  }
+
+  #block-block-6 {
+    float: left;
+    width: 27%;
+  }
+  
+  .l-page .l-main {
+    margin-top: -40px;
+  }
+  
+  .tripal-contents-table-td-toc {
+    padding-left: 6px !important;
+  }
+ 
+}
+
+/*** Chrome hack ***/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+.page-contact .resizable-textarea {width: 374px;}
+}
