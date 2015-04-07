@@ -61,10 +61,12 @@ public class StatisticsService extends HttpServlet {
                 for (Track track : oTrack.getTracks()) {
                     //System.out.println("in doGet, track:" + track.getName() + " last modified:" + track.getLastModified());
                     if (track.isUpdated()) {
-                        oTrack.removeTrackStat(track);
-                        track.load();
-                        track.updateLastModified();
-                        oTrack.addTrackStat(track);
+                        synchronized (this) {
+                            oTrack.removeTrackStat(track);
+                            track.load();
+                            track.updateLastModified();
+                            oTrack.addTrackStat(track);
+                        }
                     }
                 }
                 try { 
